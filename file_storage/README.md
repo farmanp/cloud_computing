@@ -1,0 +1,26 @@
+| Challenge Name | Objective | Goals | Prerequisites | Technologies/Tools |
+|-----------------|------------|-------|---------------|--------------------|
+| File Storage Fundamentals | Understand file storage concepts | - Learn file systems and their components<br>- Explore file organization and metadata<br>- Study file access methods and permissions | - Basic operating system knowledge | - Documentation<br>- Online resources |
+| File System Operations | Perform file system operations | - Create, modify, and delete files/directories<br>- Manage file permissions and ownership<br>- Use file archiving and compression tools | - File Storage Fundamentals | - Command-line tools (cp, mv, rm, tar, gzip) |
+| Disk Partitioning and Formatting | Manage disk partitions and file systems | - Create disk partitions using tools like fdisk/parted<br>- Format partitions with different file systems (ext4, NTFS, FAT, etc.)<br>- Mount and unmount file systems | - File System Operations | - Disk partitioning tools (fdisk, parted)<br>- File system utilities (mkfs, fsck) |
+| Network File Systems | Explore network file systems | - Set up and configure NFS (Network File System)<br>- Implement CIFS/SMB (Server Message Block)<br>- Explore distributed file systems like GlusterFS or Ceph | - Disk Partitioning and Formatting<br>- Networking basics | - NFS, Samba (CIFS/SMB)<br>- Distributed file systems (GlusterFS, Ceph) |
+| File-Based Storage Services | Implement file-based storage services | - Set up and manage cloud storage services (AWS S3, Azure Blob Storage, Google Cloud Storage)<br>- Explore object storage concepts and APIs<br>- Implement client applications to interact with storage services | - Network File Systems | - Cloud storage services (AWS S3, Azure Blob Storage, Google Cloud Storage)<br>- Storage APIs and SDKs |
+| File System Monitoring and Maintenance | Monitor and maintain file systems | - Implement file system monitoring (disk usage, inode usage, etc.)<br>- Perform file system checks and repairs (fsck, e2fsck)<br>- Implement backup and recovery strategies | - File-Based Storage Services | - Monitoring tools (Nagios, Prometheus)<br>- File system utilities (fsck, e2fsck)<br>- Backup and recovery tools |
+| Build a Simple File System | Develop a basic file system | - Implement file and directory organization<br>- Manage file metadata and permissions<br>- Handle file allocation and block management | - Programming basics (C, Rust, Go) | - Programming language (C, Rust, Go) |
+| Journaling and Crash Recovery | Implement journaling and crash recovery | - Develop journaling mechanisms for file system operations<br>- Handle crash recovery and data consistency<br>- Explore copy-on-write and log-structured file systems | - Build a Simple File System | - Programming language (C, Rust, Go) |
+| File System Snapshots and Cloning | Implement snapshots and cloning | - Develop file system snapshot mechanisms<br>- Enable cloning and deduplication techniques<br>- Explore copy-on-write and redirect-on-write strategies | - Journaling and Crash Recovery | - Programming language (C, Rust, Go) |
+| Build a Distributed File System | Develop a distributed file system | - Implement data distribution and replication<br>- Handle consistency and fault tolerance<br>- Explore caching and load balancing strategies | - File System Snapshots and Cloning<br>- Networking and distributed systems knowledge | - Programming language (C, Rust, Go)<br>- Distributed systems libraries and tools |
+
+This structure starts with the fundamentals of file storage, covering file systems, file organization, metadata, and access methods. Users then learn to perform basic file system operations and manage disk partitions and file systems.
+
+The challenges progress to exploring network file systems like NFS and CIFS/SMB, as well as distributed file systems like GlusterFS and Ceph. Users also learn about file-based storage services offered by cloud providers and how to interact with them using APIs and SDKs.
+
+As users gain more experience, they delve into file system monitoring, maintenance, and backup strategies, ensuring data integrity and availability.
+
+The latter part of the challenges focuses on building file system components from scratch, starting with a simple file system implementation. Users then add advanced features like journaling, crash recovery, snapshots, cloning, and deduplication techniques.
+
+The final challenge involves developing a distributed file system, handling data distribution, replication, consistency, fault tolerance, caching, and load balancing strategies.
+
+Throughout the challenges, users will work with various command-line tools, file system utilities, monitoring tools, backup and recovery tools, programming languages (C, Rust, Go), and distributed systems libraries and tools.
+
+This structured approach allows users to gradually build their file storage knowledge and skills, starting from the fundamentals and progressing to more advanced topics and hands-on development and distributed systems challenges.
